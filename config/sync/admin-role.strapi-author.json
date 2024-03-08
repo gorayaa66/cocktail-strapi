@@ -6,60 +6,53 @@
     {
       "action": "plugin::content-manager.explorer.create",
       "actionParameters": {},
-      "subject": "api::player.player",
+      "subject": "api::category.category",
       "properties": {
         "fields": [
-          "fullname",
-          "height",
-          "weight",
-          "slug",
-          "date_of_birth",
-          "ProfilePicture.image",
-          "schema_markup"
+          "name",
+          "posts"
         ]
       },
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
-      "subject": "api::player.player",
+      "subject": "api::category.category",
       "properties": {},
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.read",
       "actionParameters": {},
-      "subject": "api::player.player",
+      "subject": "api::category.category",
       "properties": {
         "fields": [
-          "fullname",
-          "height",
-          "weight",
-          "slug",
-          "date_of_birth",
-          "ProfilePicture.image",
-          "schema_markup"
+          "name",
+          "posts"
         ]
       },
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.update",
       "actionParameters": {},
-      "subject": "api::player.player",
+      "subject": "api::category.category",
       "properties": {
         "fields": [
-          "fullname",
-          "height",
-          "weight",
-          "slug",
-          "date_of_birth",
-          "ProfilePicture.image",
-          "schema_markup"
+          "name",
+          "posts"
         ]
       },
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.create",
@@ -72,25 +65,48 @@
           "internalLinks",
           "externalLinks",
           "feature_image",
+          "FAQ.schema_markup",
+          "FAQ.AskedQuestions.question",
+          "FAQ.AskedQuestions.answer",
           "type",
+          "categories",
           "slug",
+          "eventStatus",
+          "eventStartDate",
+          "eventEndDate",
           "url",
+          "Tag",
           "seo.metaTitle",
           "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
           "seo.meta.type",
           "seo.meta.value",
           "seo.meta.content",
-          "content"
+          "content",
+          "Author"
         ]
       },
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.delete",
       "actionParameters": {},
       "subject": "api::post.post",
       "properties": {},
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.read",
@@ -103,18 +119,39 @@
           "internalLinks",
           "externalLinks",
           "feature_image",
+          "FAQ.schema_markup",
+          "FAQ.AskedQuestions.question",
+          "FAQ.AskedQuestions.answer",
           "type",
+          "categories",
           "slug",
+          "eventStatus",
+          "eventStartDate",
+          "eventEndDate",
           "url",
+          "Tag",
           "seo.metaTitle",
           "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
           "seo.meta.type",
           "seo.meta.value",
           "seo.meta.content",
-          "content"
+          "content",
+          "Author"
         ]
       },
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::content-manager.explorer.update",
@@ -127,18 +164,39 @@
           "internalLinks",
           "externalLinks",
           "feature_image",
+          "FAQ.schema_markup",
+          "FAQ.AskedQuestions.question",
+          "FAQ.AskedQuestions.answer",
           "type",
+          "categories",
           "slug",
+          "eventStatus",
+          "eventStartDate",
+          "eventEndDate",
           "url",
+          "Tag",
           "seo.metaTitle",
           "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
           "seo.meta.type",
           "seo.meta.value",
           "seo.meta.content",
-          "content"
+          "content",
+          "Author"
         ]
       },
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::upload.assets.copy-link",
@@ -166,7 +224,9 @@
       "actionParameters": {},
       "subject": null,
       "properties": {},
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     },
     {
       "action": "plugin::upload.configure-view",
@@ -180,7 +240,9 @@
       "actionParameters": {},
       "subject": null,
       "properties": {},
-      "conditions": ["admin::is-creator"]
+      "conditions": [
+        "admin::is-creator"
+      ]
     }
   ]
 }

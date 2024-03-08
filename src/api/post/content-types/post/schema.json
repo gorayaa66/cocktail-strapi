@@ -34,7 +34,9 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "FAQ": {
       "type": "component",
@@ -53,7 +55,12 @@
         }
       },
       "type": "enumeration",
-      "enum": ["Article", "BlogPosting", "NewsArticle", "Event"],
+      "enum": [
+        "Article",
+        "BlogPosting",
+        "NewsArticle",
+        "Event"
+      ],
       "default": "BlogPosting",
       "required": true
     },
@@ -71,7 +78,12 @@
     },
     "eventStatus": {
       "type": "enumeration",
-      "enum": ["Scheduled", "Postponed", "Cancelled", "MovedOnline"]
+      "enum": [
+        "Scheduled",
+        "Postponed",
+        "Cancelled",
+        "MovedOnline"
+      ]
     },
     "eventStartDate": {
       "type": "date"
@@ -102,6 +114,10 @@
       },
       "required": true,
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Author": {
+      "type": "string",
+      "required": true
     }
   }
 }

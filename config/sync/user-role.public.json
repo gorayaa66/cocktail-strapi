@@ -4,21 +4,6 @@
   "type": "public",
   "permissions": [
     {
-      "action": "api::appbuild.appbuild.getPlayerSlugs"
-    },
-    {
-      "action": "api::appbuild.appbuild.getPostSlugs"
-    },
-    {
-      "action": "api::club.club.find"
-    },
-    {
-      "action": "api::club.club.findOne"
-    },
-    {
-      "action": "api::player.player.findOne"
-    },
-    {
       "action": "api::post.post.find"
     },
     {

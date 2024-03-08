@@ -457,6 +457,7 @@ export interface ApiPostPost extends Schema.CollectionType {
           preset: 'rich';
         }
       >;
+    Author: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -54,7 +54,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "internalLinks",
@@ -68,7 +68,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "externalLinks",
@@ -193,9 +193,9 @@
         "edit": {
           "label": "url",
           "description": "",
-          "placeholder": "Auto-genrated",
+          "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "url",
@@ -243,6 +243,20 @@
           "label": "content",
           "searchable": false,
           "sortable": false
+        }
+      },
+      "Author": {
+        "edit": {
+          "label": "Author",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Author",
+          "searchable": true,
+          "sortable": true
         }
       },
       "createdAt": {
@@ -305,6 +319,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "title",
+        "description",
+        "internalLinks"
+      ],
       "edit": [
         [
           {
@@ -312,28 +332,18 @@
             "size": 6
           },
           {
-            "name": "slug",
-            "size": 6
-          }
-        ],
-        [
-          {
             "name": "description",
             "size": 6
-          },
-          {
-            "name": "type",
-            "size": 6
           }
         ],
         [
           {
-            "name": "categories",
-            "size": 6
+            "name": "internalLinks",
+            "size": 4
           },
           {
-            "name": "url",
-            "size": 6
+            "name": "externalLinks",
+            "size": 4
           }
         ],
         [
@@ -344,14 +354,28 @@
         ],
         [
           {
-            "name": "content",
+            "name": "FAQ",
             "size": 12
           }
         ],
         [
           {
-            "name": "Tag",
-            "size": 12
+            "name": "type",
+            "size": 6
+          },
+          {
+            "name": "categories",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 6
+          },
+          {
+            "name": "eventStatus",
+            "size": 6
           }
         ],
         [
@@ -366,8 +390,14 @@
         ],
         [
           {
-            "name": "eventStatus",
+            "name": "url",
             "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Tag",
+            "size": 12
           }
         ],
         [
@@ -378,22 +408,17 @@
         ],
         [
           {
-            "name": "FAQ",
+            "name": "content",
             "size": 12
           }
         ],
         [
           {
-            "name": "externalLinks",
-            "size": 4
-          },
-          {
-            "name": "internalLinks",
-            "size": 4
+            "name": "Author",
+            "size": 6
           }
         ]
-      ],
-      "list": ["id", "title", "description", "slug"]
+      ]
     }
   },
   "type": "object",

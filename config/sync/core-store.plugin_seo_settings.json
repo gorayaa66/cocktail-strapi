@@ -16,36 +16,6 @@
         "lastUpdatedAt": true
       }
     },
-    "api::club.club": {
-      "collectionName": "club",
-      "seoChecks": {
-        "metaTitle": true,
-        "metaDescription": true,
-        "metaRobots": true,
-        "metaSocial": true,
-        "wordCount": true,
-        "canonicalUrl": true,
-        "keywordDensity": true,
-        "structuredData": true,
-        "alternativeText": true,
-        "lastUpdatedAt": true
-      }
-    },
-    "api::player.player": {
-      "collectionName": "player",
-      "seoChecks": {
-        "metaTitle": true,
-        "metaDescription": true,
-        "metaRobots": true,
-        "metaSocial": true,
-        "wordCount": true,
-        "canonicalUrl": true,
-        "keywordDensity": true,
-        "structuredData": true,
-        "alternativeText": true,
-        "lastUpdatedAt": true
-      }
-    },
     "api::post.post": {
       "collectionName": "post",
       "seoChecks": {

@@ -93,7 +93,7 @@
       "metaRobots": {
         "edit": {
           "label": "metaRobots",
-          "description": "noindex,nofollow,nositelinkssearchbox,noimageindex,nosnippet,noarchive",
+          "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -110,7 +110,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "structuredData",
@@ -138,7 +138,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "canonicalURL",
@@ -162,7 +162,12 @@
       }
     },
     "layouts": {
-      "list": ["id", "metaTitle", "metaDescription", "metaImage"],
+      "list": [
+        "id",
+        "metaTitle",
+        "metaDescription",
+        "metaImage"
+      ],
       "edit": [
         [
           {
@@ -190,12 +195,16 @@
           {
             "name": "keywords",
             "size": 6
+          },
+          {
+            "name": "metaRobots",
+            "size": 6
           }
         ],
         [
           {
-            "name": "metaRobots",
-            "size": 8
+            "name": "structuredData",
+            "size": 12
           }
         ],
         [
@@ -206,12 +215,6 @@
           {
             "name": "canonicalURL",
             "size": 6
-          }
-        ],
-        [
-          {
-            "name": "structuredData",
-            "size": 12
           }
         ],
         [

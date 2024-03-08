@@ -26,7 +26,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "schema_markup",
@@ -50,17 +50,20 @@
       }
     },
     "layouts": {
-      "list": ["id", "AskedQuestions"],
+      "list": [
+        "id",
+        "AskedQuestions"
+      ],
       "edit": [
         [
           {
-            "name": "AskedQuestions",
+            "name": "schema_markup",
             "size": 12
           }
         ],
         [
           {
-            "name": "schema_markup",
+            "name": "AskedQuestions",
             "size": 12
           }
         ]

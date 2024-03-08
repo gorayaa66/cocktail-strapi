@@ -8,7 +8,7 @@
       "searchable": true,
       "pageSize": 10,
       "mainField": "question",
-      "defaultSortBy": "id",
+      "defaultSortBy": "question",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -50,15 +50,17 @@
       }
     },
     "layouts": {
-      "list": ["id", "question", "answer"],
+      "list": [
+        "id",
+        "question",
+        "answer"
+      ],
       "edit": [
         [
           {
             "name": "question",
             "size": 6
-          }
-        ],
-        [
+          },
           {
             "name": "answer",
             "size": 6

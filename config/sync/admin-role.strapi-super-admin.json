@@ -8,7 +8,10 @@
       "actionParameters": {},
       "subject": "api::category.category",
       "properties": {
-        "fields": ["name", "posts"]
+        "fields": [
+          "name",
+          "posts"
+        ]
       },
       "conditions": []
     },
@@ -24,7 +27,10 @@
       "actionParameters": {},
       "subject": "api::category.category",
       "properties": {
-        "fields": ["name", "posts"]
+        "fields": [
+          "name",
+          "posts"
+        ]
       },
       "conditions": []
     },
@@ -33,153 +39,9 @@
       "actionParameters": {},
       "subject": "api::category.category",
       "properties": {
-        "fields": ["name", "posts"]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::club.club",
-      "properties": {
         "fields": [
           "name",
-          "conference",
-          "description",
-          "feature_image.image",
-          "players",
-          "bio"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::club.club",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::club.club",
-      "properties": {
-        "fields": [
-          "name",
-          "conference",
-          "description",
-          "feature_image.image",
-          "players",
-          "bio"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::club.club",
-      "properties": {
-        "fields": [
-          "name",
-          "conference",
-          "description",
-          "feature_image.image",
-          "players",
-          "bio"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "actionParameters": {},
-      "subject": "api::player.player",
-      "properties": {
-        "fields": [
-          "fullname",
-          "height",
-          "weight",
-          "slug",
-          "date_of_birth",
-          "ProfilePicture.image",
-          "birthplace",
-          "college",
-          "experience",
-          "draft_info",
-          "net_worth",
-          "schema_markup",
-          "club",
-          "jersey_no",
-          "position",
-          "bio"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "actionParameters": {},
-      "subject": "api::player.player",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "actionParameters": {},
-      "subject": "api::player.player",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "actionParameters": {},
-      "subject": "api::player.player",
-      "properties": {
-        "fields": [
-          "fullname",
-          "height",
-          "weight",
-          "slug",
-          "date_of_birth",
-          "ProfilePicture.image",
-          "birthplace",
-          "college",
-          "experience",
-          "draft_info",
-          "net_worth",
-          "schema_markup",
-          "club",
-          "jersey_no",
-          "position",
-          "bio"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "actionParameters": {},
-      "subject": "api::player.player",
-      "properties": {
-        "fields": [
-          "fullname",
-          "height",
-          "weight",
-          "slug",
-          "date_of_birth",
-          "ProfilePicture.image",
-          "birthplace",
-          "college",
-          "experience",
-          "draft_info",
-          "net_worth",
-          "schema_markup",
-          "club",
-          "jersey_no",
-          "position",
-          "bio"
+          "posts"
         ]
       },
       "conditions": []
@@ -221,7 +83,8 @@
           "seo.meta.type",
           "seo.meta.value",
           "seo.meta.content",
-          "content"
+          "content",
+          "Author"
         ]
       },
       "conditions": []
@@ -277,7 +140,8 @@
           "seo.meta.type",
           "seo.meta.value",
           "seo.meta.content",
-          "content"
+          "content",
+          "Author"
         ]
       },
       "conditions": []
@@ -319,7 +183,8 @@
           "seo.meta.type",
           "seo.meta.value",
           "seo.meta.content",
-          "content"
+          "content",
+          "Author"
         ]
       },
       "conditions": []

@@ -40,7 +40,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "score",
@@ -54,7 +54,7 @@
           "description": "",
           "placeholder": "",
           "visible": true,
-          "editable": false
+          "editable": true
         },
         "list": {
           "label": "text",
@@ -64,7 +64,12 @@
       }
     },
     "layouts": {
-      "list": ["id", "value", "score", "text"],
+      "list": [
+        "id",
+        "value",
+        "score",
+        "text"
+      ],
       "edit": [
         [
           {

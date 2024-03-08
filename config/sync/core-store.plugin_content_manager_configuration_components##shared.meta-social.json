@@ -7,7 +7,7 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "socialNetwork",
+      "mainField": "title",
       "defaultSortBy": "title",
       "defaultSortOrder": "ASC"
     },
@@ -78,7 +78,12 @@
       }
     },
     "layouts": {
-      "list": ["id", "socialNetwork", "title", "description"],
+      "list": [
+        "id",
+        "socialNetwork",
+        "title",
+        "description"
+      ],
       "edit": [
         [
           {

@@ -319,12 +319,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "title",
-        "description",
-        "internalLinks"
-      ],
       "edit": [
         [
           {
@@ -338,24 +332,12 @@
         ],
         [
           {
-            "name": "internalLinks",
-            "size": 4
-          },
-          {
-            "name": "externalLinks",
-            "size": 4
-          }
-        ],
-        [
-          {
             "name": "feature_image",
             "size": 6
-          }
-        ],
-        [
+          },
           {
-            "name": "FAQ",
-            "size": 12
+            "name": "slug",
+            "size": 6
           }
         ],
         [
@@ -370,9 +352,23 @@
         ],
         [
           {
-            "name": "slug",
+            "name": "url",
             "size": 6
-          },
+          }
+        ],
+        [
+          {
+            "name": "content",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Tag",
+            "size": 12
+          }
+        ],
+        [
           {
             "name": "eventStatus",
             "size": 6
@@ -390,25 +386,7 @@
         ],
         [
           {
-            "name": "url",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "Tag",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "seo",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "content",
             "size": 12
           }
         ],
@@ -418,6 +396,12 @@
             "size": 6
           }
         ]
+      ],
+      "list": [
+        "id",
+        "title",
+        "description",
+        "internalLinks"
       ]
     }
   },

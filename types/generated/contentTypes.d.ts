@@ -410,7 +410,6 @@ export interface ApiPostPost extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
-    description: Attribute.Text & Attribute.Required;
     internalLinks: Attribute.Integer & Attribute.DefaultTo<0>;
     externalLinks: Attribute.Integer & Attribute.DefaultTo<0>;
     feature_image: Attribute.Media & Attribute.Required;
@@ -440,14 +439,7 @@ export interface ApiPostPost extends Schema.CollectionType {
       Attribute.SetMinMaxLength<{
         maxLength: 75;
       }>;
-    eventStatus: Attribute.Enumeration<
-      ['Scheduled', 'Postponed', 'Cancelled', 'MovedOnline']
-    >;
-    eventStartDate: Attribute.Date;
-    eventEndDate: Attribute.Date;
     url: Attribute.String & Attribute.DefaultTo<'auto generated '>;
-    Tag: Attribute.JSON & Attribute.CustomField<'plugin::tagsinput.tags'>;
-    seo: Attribute.Component<'shared.seo'> & Attribute.Required;
     content: Attribute.RichText &
       Attribute.Required &
       Attribute.CustomField<

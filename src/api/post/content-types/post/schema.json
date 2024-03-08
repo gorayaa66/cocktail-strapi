@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "internalLinks": {
       "type": "integer",
       "required": false,
@@ -76,35 +72,10 @@
       "required": true,
       "maxLength": 75
     },
-    "eventStatus": {
-      "type": "enumeration",
-      "enum": [
-        "Scheduled",
-        "Postponed",
-        "Cancelled",
-        "MovedOnline"
-      ]
-    },
-    "eventStartDate": {
-      "type": "date"
-    },
-    "eventEndDate": {
-      "type": "date"
-    },
     "url": {
       "type": "string",
       "default": "auto generated ",
       "required": false
-    },
-    "Tag": {
-      "type": "customField",
-      "customField": "plugin::tagsinput.tags"
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo",
-      "required": true
     },
     "content": {
       "type": "customField",

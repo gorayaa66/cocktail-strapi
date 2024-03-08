@@ -1,0 +1,74 @@
+{
+  "key": "plugin_content_manager_configuration_components::components.faq",
+  "value": {
+    "uid": "components.faq",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "schema_markup": {
+        "edit": {
+          "label": "schema_markup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": false
+        },
+        "list": {
+          "label": "schema_markup",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "AskedQuestions": {
+        "edit": {
+          "label": "AskedQuestions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "AskedQuestions",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": ["id", "AskedQuestions"],
+      "edit": [
+        [
+          {
+            "name": "AskedQuestions",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "schema_markup",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

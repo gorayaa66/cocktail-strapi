@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": ["name", "property"],
+      "required": true,
+      "default": "name"
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

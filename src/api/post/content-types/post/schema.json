@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Posts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "internalLinks": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "externalLinks": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "feature_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        }
+      },
+      "component": "components.faq"
+    },
+    "type": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        }
+      },
+      "type": "enumeration",
+      "enum": ["Article", "BlogPosting", "NewsArticle", "Event"],
+      "default": "BlogPosting",
+      "required": true
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "mappedBy": "posts"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true,
+      "maxLength": 75
+    },
+    "eventStatus": {
+      "type": "enumeration",
+      "enum": ["Scheduled", "Postponed", "Cancelled", "MovedOnline"]
+    },
+    "eventStartDate": {
+      "type": "date"
+    },
+    "eventEndDate": {
+      "type": "date"
+    },
+    "url": {
+      "type": "string",
+      "default": "auto generated ",
+      "required": false
+    },
+    "Tag": {
+      "type": "customField",
+      "customField": "plugin::tagsinput.tags"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

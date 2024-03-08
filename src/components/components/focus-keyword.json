@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_focus_keywords",
+  "info": {
+    "displayName": "Focus Keyword",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "score": {
+      "type": "integer",
+      "required": false,
+      "default": 0
+    },
+    "text": {
+      "type": "text",
+      "default": "auto generated "
+    }
+  }
+}

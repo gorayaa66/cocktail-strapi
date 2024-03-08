@@ -1,0 +1,130 @@
+{
+  "key": "plugin_content_manager_configuration_components::components.button",
+  "value": {
+    "uid": "components.button",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "value",
+      "defaultSortBy": "value",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "value": {
+        "edit": {
+          "label": "value",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "value",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "url": {
+        "edit": {
+          "label": "url",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "url",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "btn_size": {
+        "edit": {
+          "label": "btn_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "btn_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "btn_color": {
+        "edit": {
+          "label": "btn_color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "btn_color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "btn_kind": {
+        "edit": {
+          "label": "btn_kind",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "btn_kind",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": ["id", "value", "url", "btn_size"],
+      "edit": [
+        [
+          {
+            "name": "value",
+            "size": 6
+          },
+          {
+            "name": "url",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "btn_size",
+            "size": 6
+          },
+          {
+            "name": "btn_color",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "btn_kind",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

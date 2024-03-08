@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_bodies",
+  "info": {
+    "displayName": "Paragraph",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["b-large", "b-medium", "b-small", "b-extra-small"],
+      "required": true
+    }
+  }
+}

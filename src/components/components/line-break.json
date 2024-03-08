@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_line_breaks",
+  "info": {
+    "displayName": "LineBreak",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "enumeration",
+      "enum": ["line-break"],
+      "default": "line-break",
+      "required": true
+    }
+  }
+}

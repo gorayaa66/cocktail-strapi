@@ -1,0 +1,69 @@
+{
+  "name": "orange-ball-strapi-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "postinstall": "patch-package",
+    "format:fix": "yarn prettier . --write",
+    "format": "yarn prettier . --check",
+    "start": "strapi start",
+    "start:dev": "nodemon -e js,json,yml,str server.js",
+    "strapi": "strapi",
+    "prepare": "husky install",
+    "pre:commit": "lint-staged",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "lint-staged": {
+    "*js": [
+      "eslint"
+    ],
+    "*ts": [
+      "eslint "
+    ]
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.10",
+    "@notum-cz/strapi-plugin-content-versioning": "^1.2.6",
+    "@strapi/plugin-cloud": "4.15.5",
+    "@strapi/plugin-i18n": "4.15.5",
+    "@strapi/plugin-seo": "^1.9.8",
+    "@strapi/plugin-users-permissions": "4.15.5",
+    "@strapi/strapi": "4.15.5",
+    "dotenv": "^16.3.1",
+    "jsdom": "^24.0.0",
+    "patch-package": "^8.0.0",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-plugin-config-sync": "^1.2.3",
+    "strapi-plugin-tagsinput": "^1.0.1",
+    "styled-components": "5.3.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "nodemon": "^3.0.2",
+    "prettier": "3.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "f0b4f47f-2c83-40a3-a06f-ce3432f03ee5"
+  }
+}

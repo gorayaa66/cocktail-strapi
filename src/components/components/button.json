@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "btn_size": {
+      "type": "enumeration",
+      "enum": ["large", "medium", "small"],
+      "required": true
+    },
+    "btn_color": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary"],
+      "required": true
+    },
+    "btn_kind": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary"],
+      "required": true
+    }
+  }
+}

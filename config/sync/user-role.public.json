@@ -1,0 +1,49 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::appbuild.appbuild.getPlayerSlugs"
+    },
+    {
+      "action": "api::appbuild.appbuild.getPostSlugs"
+    },
+    {
+      "action": "api::club.club.find"
+    },
+    {
+      "action": "api::club.club.findOne"
+    },
+    {
+      "action": "api::player.player.findOne"
+    },
+    {
+      "action": "api::post.post.find"
+    },
+    {
+      "action": "api::post.post.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
+    }
+  ]
+}

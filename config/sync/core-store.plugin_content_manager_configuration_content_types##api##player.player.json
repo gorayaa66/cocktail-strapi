@@ -1,0 +1,400 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::player.player",
+  "value": {
+    "uid": "api::player.player",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "fullname",
+      "defaultSortBy": "fullname",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fullname": {
+        "edit": {
+          "label": "fullname",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fullname",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "height": {
+        "edit": {
+          "label": "height",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "height",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "weight": {
+        "edit": {
+          "label": "weight",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "weight",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "date_of_birth": {
+        "edit": {
+          "label": "date_of_birth",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "date_of_birth",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ProfilePicture": {
+        "edit": {
+          "label": "ProfilePicture",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ProfilePicture",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "birthplace": {
+        "edit": {
+          "label": "birthplace",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "birthplace",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "college": {
+        "edit": {
+          "label": "college",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "college",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "experience": {
+        "edit": {
+          "label": "experience",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "experience",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "draft_info": {
+        "edit": {
+          "label": "draft_info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "draft_info",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "net_worth": {
+        "edit": {
+          "label": "net_worth",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "net_worth",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bio": {
+        "edit": {
+          "label": "bio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bio",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "schema_markup": {
+        "edit": {
+          "label": "schema_markup",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": false
+        },
+        "list": {
+          "label": "schema_markup",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "club": {
+        "edit": {
+          "label": "club",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "club",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "jersey_no": {
+        "edit": {
+          "label": "jersey_no",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "jersey_no",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "position": {
+        "edit": {
+          "label": "position",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "position",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "fullname",
+            "size": 6
+          },
+          {
+            "name": "height",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "weight",
+            "size": 6
+          },
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "position",
+            "size": 6
+          },
+          {
+            "name": "date_of_birth",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "club",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "ProfilePicture",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "birthplace",
+            "size": 6
+          },
+          {
+            "name": "college",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "experience",
+            "size": 6
+          },
+          {
+            "name": "jersey_no",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "net_worth",
+            "size": 6
+          },
+          {
+            "name": "draft_info",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "bio",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "schema_markup",
+            "size": 12
+          }
+        ]
+      ],
+      "list": ["id", "fullname", "height", "weight"]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

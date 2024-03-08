@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "schema_markup": {
+      "type": "json",
+      "required": false
+    },
+    "AskedQuestions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.qa",
+      "required": true
+    }
+  }
+}

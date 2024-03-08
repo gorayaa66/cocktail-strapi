@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "auto generated ",
+      "maxLength": 60
+    },
+    "description": {
+      "type": "text",
+      "required": false,
+      "default": "auto generated ",
+      "maxLength": 160,
+      "private": true
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.meta",
+      "required": false
+    },
+    "focus_Keyword": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.focus-keyword",
+      "required": false
+    }
+  }
+}

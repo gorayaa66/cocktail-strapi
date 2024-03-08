@@ -34,20 +34,6 @@
           "sortable": true
         }
       },
-      "description": {
-        "edit": {
-          "label": "description",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "description",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "internalLinks": {
         "edit": {
           "label": "internalLinks",
@@ -147,48 +133,6 @@
           "sortable": true
         }
       },
-      "eventStatus": {
-        "edit": {
-          "label": "eventStatus",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "eventStatus",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "eventStartDate": {
-        "edit": {
-          "label": "eventStartDate",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "eventStartDate",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "eventEndDate": {
-        "edit": {
-          "label": "eventEndDate",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "eventEndDate",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "url": {
         "edit": {
           "label": "url",
@@ -201,34 +145,6 @@
           "label": "url",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "Tag": {
-        "edit": {
-          "label": "Tag",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "Tag",
-          "searchable": false,
-          "sortable": false
-        }
-      },
-      "seo": {
-        "edit": {
-          "label": "seo",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "seo",
-          "searchable": false,
-          "sortable": false
         }
       },
       "content": {
@@ -319,6 +235,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "title",
+        "internalLinks",
+        "externalLinks"
+      ],
       "edit": [
         [
           {
@@ -326,18 +248,24 @@
             "size": 6
           },
           {
-            "name": "description",
+            "name": "internalLinks",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "externalLinks",
+            "size": 4
+          },
+          {
+            "name": "feature_image",
             "size": 6
           }
         ],
         [
           {
-            "name": "feature_image",
-            "size": 6
-          },
-          {
-            "name": "slug",
-            "size": 6
+            "name": "FAQ",
+            "size": 12
           }
         ],
         [
@@ -352,6 +280,10 @@
         ],
         [
           {
+            "name": "slug",
+            "size": 6
+          },
+          {
             "name": "url",
             "size": 6
           }
@@ -364,44 +296,10 @@
         ],
         [
           {
-            "name": "Tag",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "eventStatus",
-            "size": 6
-          }
-        ],
-        [
-          {
-            "name": "eventStartDate",
-            "size": 4
-          },
-          {
-            "name": "eventEndDate",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "seo",
-            "size": 12
-          }
-        ],
-        [
-          {
             "name": "Author",
             "size": 6
           }
         ]
-      ],
-      "list": [
-        "id",
-        "title",
-        "description",
-        "internalLinks"
       ]
     }
   },

@@ -16,8 +16,8 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": false,
-          "sortable": false
+          "searchable": true,
+          "sortable": true
         }
       },
       "title": {
@@ -78,7 +78,12 @@
       }
     },
     "layouts": {
-      "list": ["id", "title", "description", "meta"],
+      "list": [
+        "id",
+        "title",
+        "description",
+        "meta"
+      ],
       "edit": [
         [
           {

@@ -16,8 +16,8 @@
         "edit": {},
         "list": {
           "label": "id",
-          "searchable": false,
-          "sortable": false
+          "searchable": true,
+          "sortable": true
         }
       },
       "value": {
@@ -92,7 +92,12 @@
       }
     },
     "layouts": {
-      "list": ["id", "value", "url", "btn_size"],
+      "list": [
+        "id",
+        "value",
+        "url",
+        "btn_size"
+      ],
       "edit": [
         [
           {

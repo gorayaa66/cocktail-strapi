@@ -1,5 +1,5 @@
 // @ts-nocheck
-const logo = require('./extensions/OrangeBallLogo.svg');
+const logo = require("./extensions/CocktailLogo.png");
 const config = {
   locales: [
     // 'ar',
@@ -32,7 +32,7 @@ const config = {
 
   auth: { logo: logo },
 
-  menu: { logo: logo }
+  menu: { logo: logo },
 };
 
 const bootstrap = (app) => {
@@ -41,5 +41,5 @@ const bootstrap = (app) => {
 
 export default {
   config,
-  bootstrap
+  bootstrap,
 };
